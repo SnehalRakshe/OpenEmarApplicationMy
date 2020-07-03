@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenEMRSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="ff"/>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.tieto.test.LoginTest">
+        <methods>
+          <include name="end"/>
+          <include name="invalidCrendetailTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.tieto.test.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [OpenEMRSuite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenEMRSuite">
+  <parameter name="browser" value="ff"> </parameter>
+  
+  <test thread-count="5" name="LoginTest">
+  	<parameter name="browser" value="ch"> </parameter>
+    <classes>
+      <class name="com.tieto.test.LoginTest"/>
+      
+    </classes>
+  </test> <!-- LoginTest -->
+  
+<!--   <test thread-count="5" name="Patient Test">
+    <classes>
+      <class name="com.tieto.test.AddPatientTest"/>
+    </classes>
+  </test> LoginTest -->
+</suite> <!-- OpenEMRSuite -->

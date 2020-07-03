@@ -1,0 +1,9 @@
+com\tieto\test\AddPatientTest.class
+com\tieto\utilties\PropUtils.class
+com\tieto\pages\LoginPage.class
+com\tieto\pages\DashboardPage.class
+com\tieto\test\DemoTest.class
+com\tieto\pages\LoginPageNonStatic.class
+com\tieto\utilties\ExcelUtils.class
+com\tieto\test\LoginTest.class
+com\tieto\base\WebDriverWrapper.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-03T15:22:50 IST" name="Default suite" finished-at="2020-07-03T15:22:50 IST" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2020-07-03T15:22:50 IST" name="Default test" finished-at="2020-07-03T15:22:50 IST" duration-ms="36">
+      <class name="com.tieto.test.DemoTest">
+        <test-method signature="readProperties()[pri:0, instance:com.tieto.test.DemoTest@222114ba]" started-at="2020-07-03T15:22:50 IST" name="readProperties" finished-at="2020-07-03T15:22:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperties -->
+      </class> <!-- com.tieto.test.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
